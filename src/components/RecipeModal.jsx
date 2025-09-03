@@ -45,14 +45,7 @@ const RecipeModal = ({ recipe, onClose }) => {
         <h3 className="font-semibold mb-2">Instructions:</h3>
         <div className="overflow-auto max-h-60 pr-2">
           <p>{recipe.strInstructions}</p>
-           {/* {recipe.strInstructions
-               .split("\n")                 // Split by line breaks
-               .map(line => line.trim())    // Remove extra spaces
-               .filter(line => line.length > 0) // Remove empty lines
-               .map((line, index) => (      // Map each line to a <p>
-               <p key={index} className="mb-2">{line}</p>
-             ))
-            } */}
+          
         </div>
       </div>
     </div>
